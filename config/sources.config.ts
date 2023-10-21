@@ -1,5 +1,5 @@
 export const sources = {
-  "cdn.xform.media": {
+  "my-xform.vercel.app": {
     "name": "xform-media",
     "accessKeyId": "ACCESS_KEY_ID",
     "secretAccessKey": "SECRET_ACCESS_KEY",
