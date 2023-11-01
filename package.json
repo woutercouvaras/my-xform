@@ -10,6 +10,7 @@
     "@aws-sdk/client-s3": "^3.431.0",
     "@fastify/accept-negotiator": "^1.1.0",
     "destr": "2.0.1",
+    "dotenv": "^16.3.1",
     "etag": "^1.8.1",
     "image-meta": "^0.2.0",
     "nitropack": "latest",
