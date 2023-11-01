@@ -22,7 +22,7 @@ module.exports = {
       ref: process.env.GITHUB_BRANCH,
       repo: process.env.GITHUB_REPO,
       path: process.env.TARGET_PATH,
-      // 'pre-deploy': '/home/ubuntu/inf/deploy/pre-deploy.sh xform-solo',
+      'pre-deploy': '/home/ubuntu/inf/deploy/pre-deploy.sh my-xform-solo',
       'post-deploy':
         'pnpm install && pnpm build && pm2 reload ecosystem.config.js --env production && pm2 save',
       env: {
