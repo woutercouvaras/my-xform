@@ -16,14 +16,5 @@ export const sources = {
     "region": "CC_REGION",
     "max-age": "31536000",
     "s-maxage": "2592000",
-  },
-  "chaircrazy.xform.local": {
-    "name": "chaircrazy",
-    "accessKeyId": "CC_ACCESS_KEY_ID",
-    "secretAccessKey": "CC_SECRET_ACCESS_KEY",
-    "bucket": "CC_BUCKET",
-    "region": "CC_REGION",
-    "max-age": "31536000",
-    "s-maxage": "2592000",
   }
 }
