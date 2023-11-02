@@ -45,7 +45,7 @@ export default defineEventHandler(async (event) => {
       region: process.env[source.region]
     }
 
-    const path = event.path.replace(/^\//, '').replace(/\?.*/, '').replace(/%20/g, ' ')
+    const path = decodeURIComponent(event.path.replace(/^\//, '').replace(/\?.*/, ''))
     const query = getQuery(event)
     const file = await getStorageBucketFile(config, path)
 
